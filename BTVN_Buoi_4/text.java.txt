@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        Sach a = new Sach();
+        Sach b = new Sach();
+        Sach c = new Sach();
+        Sach d = new Sach();
+        Sach e = new Sach();
+        System.out.println("Nhap thong tin sach thu 1: ");
+        a.nhapThongTin(sc);
+        System.out.println("Nhap thong tin sach thu 2: ");
+        b.nhapThongTin(sc);
+        System.out.println("Nhap thong tin sach thu 3: ");
+        c.nhapThongTin(sc);
+        System.out.println("Nhap thong tin sach thu 4: ");
+        d.nhapThongTin(sc);
+        System.out.println("Nhap thong tin sach thu 5: ");
+        e.nhapThongTin(sc);
+        sc.close();
+        System.out.printf("%10d %20s %20s %15s %10d\n", "Ma Sach", "Ten Sach", "Tac Gia", "Nha Xuat Ban", "Nam Xuat Ban");
+        a.xuatThongTin();
+        b.xuatThongTin();
+        c.xuatThongTin();
+        d.xuatThongTin();
+        e.xuatThongTin();
+        }
+    }
