@@ -26,10 +26,9 @@ public class Sach {
         System.out.print("Nhap ten sach: ");
         tenSach = sc.next();
         System.out.print("Nhap ten tac gia: ");
-        tenTacGia = sc.nextLine();
-        sc.nextLine();
+        tenTacGia = sc.next();
         System.out.print("Nhap ten nha xuat ban: ");
-        nxb = sc.nextLine();
+        nxb = sc.next();
         System.out.print("Nhap nam xuat ban: ");
         namxb = sc.nextInt();
     }

@@ -25,7 +25,7 @@ public class SinhVien {
         System.out.print("Nhap ma sinh vien: ");
         maSinhVien = sc.nextInt();
         System.out.print("Nhap ho ten sinh vien: ");
-        hoTen = sc.nextLine();
+        hoTen = sc.next();
         System.out.print("Nhap diem toan: ");
         diemToan = sc.nextFloat();
         System.out.print("Nhap diem ly: ");
