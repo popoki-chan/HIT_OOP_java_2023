@@ -1,0 +1,11 @@
+con trỏ this
+cú pháp: this.ten_bien = ten_bien; //gán gia tri tham so name cho bien name
+static: sd mà ko cần khai báo đối tượng của class đó
+counter: đếm xem đã tạo n biên r
+private static <kiểu dl> biến()
+final: tuong tự khai báo hằng, chỉ đc gán 1 lần, viết hoa toàn bộ
+*nạp chồng phương thức
+cho phép định nghĩa các phương thức cùng tên (khca tham so)
+Quan hệ HAS-A( sở hữu một ...)
+    cho thuộc tính của lóp khác 
+mảng đối tượng
